@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunday Media</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contacto">Contact</a></li>
+        </ul>
+      </nav>
+      <!--<div class="switcher">
+        <label for="dark-mode-switch">Dark Mode:</label>
+        <input type="checkbox" id="dark-mode-switch">
+      </div>-->
+      <a href="index.html" class="logo">SUNDAY MEDIA</a>
+  </header>
+
+  <main>
+    <section id="home">
+      <!-- Contenido de la sección HOME -->
+      <h2>FULL SERVICE DIGITAL AGENCY</h2>
+            <p>
+    Providing effective solutions for your digital needs.
+    From social media strategies to influencer marketing,
+    content creation, paid media, and more.
+    We cover every aspect to help your brand thrive.
+            </p>
+    </section>
+
+    <div class="about-container">
+    <section id="about">
+      <h2>About</h2>
+      <div class="about-content">
+        <h3>Welcome to our Digital Marketing Agency</h3>
+        <p>
+          At our digital marketing agency, we specialize in helping businesses grow their online presence and achieve their marketing goals. With a team of skilled professionals and a data-driven approach, we offer a comprehensive range of digital marketing services tailored to meet the unique needs of each client.
+        </p>
+        <p>
+          Our agency is committed to delivering exceptional results and driving measurable success. From strategic planning and campaign execution to ongoing optimization and analysis, we leverage the latest digital marketing strategies and techniques to maximize your brand's visibility, increase website traffic, and generate quality leads.
+        </p>
+        <p>
+          With a focus on transparency and collaboration, we work closely with our clients to understand their objectives and develop customized marketing strategies that align with their brand identity and target audience. Our goal is to establish long-term partnerships based on trust, reliability, and exceptional results.
+        </p>
+      </div>
+    </section>
+</div>
+
+    <section id="services">
+       <h2>Services</h2>
+            <div class="services-grid">
+              <div class="service">
+                <h3>Advertising Campaigns</h3>
+                <p>Reach your target audience through effective advertising campaigns using platforms such as Google Ads, Facebook Ads, and Instagram Ads.</p>
+              </div>
+              <div class="service">
+                <h3>Web Development and Optimization</h3>
+                <p>Create and optimize stunning websites that are visually appealing, user-friendly, and optimized for search engines.</p>
+              </div>
+              <div class="service">
+                <h3>Pay-Per-Click (PPC) Advertising</h3>
+                <p>Maximize your online visibility and drive targeted traffic to your website through strategic pay-per-click advertising campaigns.</p>
+              </div>
+            </div>
+          
+      
+    </section>
+
+    <section id="contacto">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name">
+      
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email">
+      
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message"></textarea>
+      
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+  </main>
+
+  <script>
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      var scrollPosition = window.scrollY;
+  
+      if (scrollPosition > 0) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
